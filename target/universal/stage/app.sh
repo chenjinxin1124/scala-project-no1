@@ -2,7 +2,7 @@
 
 set -e
 
-APP_NAME="scala-project-1" #更改为项目名
+APP_NAME="scala-project" #更改为项目名 与./target/universal/stage/bin/ 下的0110文件名保持一致
 ROOT=$(dirname $(readlink -e $0))
 # SCRIPT=$ROOT/bin/com_chinamobiad_adx_edge_main
 SCRIPT=$ROOT/bin/$APP_NAME
@@ -73,3 +73,4 @@ case $1 in
 esac
 
 exit 0
+#sudo ./target/universal/stage/app.sh run

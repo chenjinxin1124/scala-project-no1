@@ -1,15 +1,15 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /home/gin/Desktop/zzkjIng/learning/hello-akka-http/target/scala-2.12/hello-akka-http_2.12-0.1-sources.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.13/scala-project_2.13-0.1-sources.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	cn/chenhuanming/hello/akka/http/Server.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/scala/cn/chenhuanming/hello/akka/http/Server.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/resources/application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	static[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/resources/static[0m
-[0m[[0m[0mdebug[0m] [0m[0m	static/index.html[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/resources/static/index.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/scala/cn/chenhuanming/hello/akka/http/Server.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	cn/chenhuanming/hello/akka/http/domain/JsonSupport.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/scala/cn/chenhuanming/hello/akka/http/domain/JsonSupport.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/scala/cn/chenhuanming/hello/akka/http/domain/JsonSupport.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	static[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static[0m
 [0m[[0m[0mdebug[0m] [0m[0m	cn/chenhuanming/hello/akka/http/actor/HelloActor.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/hello-akka-http/src/main/scala/cn/chenhuanming/hello/akka/http/actor/HelloActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/scala/cn/chenhuanming/hello/akka/http/actor/HelloActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	static/index.html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static/index.html[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
