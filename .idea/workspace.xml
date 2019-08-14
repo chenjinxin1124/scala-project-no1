@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1720" />
+    <option name="height" value="1347" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../adx-edge" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../hello-akka-http" value="PREVIEW" />
+        <entry key="$USER_HOME$/adx-beaconhub" value="PREVIEW" />
+        <entry key="$USER_HOME$/adx-edge" value="PREVIEW" />
+        <entry key="$USER_HOME$/adx-etl" value="PREVIEW" />
+        <entry key="$USER_HOME$/adx-simple-template" value="PREVIEW" />
+        <entry key="$USER_HOME$/adx-streaming" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/adx-edge" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/akka" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/cpd-dsp" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/scala-study" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/simple-scala-project" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/slick" value="PREVIEW" />
+        <entry key="$USER_HOME$/cjx-scala/slick-codegen-customization-example-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/gitProject/adx-edge" value="PREVIEW" />
+        <entry key="$USER_HOME$/simple-scala-project" value="PREVIEW" />
+        <entry key="$USER_HOME$/下载/slick-codegen-example-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
