@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="hello-akka-http,scalaproject1_4753" />
+    <profile name="sbt 1" modules="hello-akka-http,scala-project,scalaproject1_4753" />
   </component>
 </project>

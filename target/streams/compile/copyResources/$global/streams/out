@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/application.conf,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.13/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.13/classes/static)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static/index.html,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.13/classes/static/index.html)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/application.conf,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.12/classes/static)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/gin/Desktop/zzkjIng/learning/scala-project-1/src/main/resources/static/index.html,/home/gin/Desktop/zzkjIng/learning/scala-project-1/target/scala-2.12/classes/static/index.html)[0m

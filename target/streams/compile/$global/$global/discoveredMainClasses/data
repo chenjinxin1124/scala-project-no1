@@ -1,1 +1,1 @@
-["cn.chenhuanming.hello.akka.http.Server"]
+["akka.http.WebServer","slick.httpSlickDemo"]
