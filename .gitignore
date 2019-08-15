@@ -36,6 +36,8 @@ project/plugins/project/
 .ensime 
 .ensime_cache
 
+.idea
+.idea/
 spark-warehouse
 
 
