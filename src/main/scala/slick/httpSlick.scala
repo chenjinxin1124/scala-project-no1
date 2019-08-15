@@ -28,7 +28,7 @@ class Scores(tag: Tag) extends Table[(Int, Int)](tag, "scores") {
   def * = (id, score)
 }
 
-object httpSlickDemo extends App {
+object httpSlick extends App {
   implicit val system = ActorSystem("my-system")
   implicit val materializer = ActorMaterializer()
 
