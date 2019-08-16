@@ -1,22 +1,19 @@
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
+import scala.language.postfixOps
+import scala.util.{Failure, Success}
+
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives.{complete, get, parameters, path, pathPrefix, _}
 import akka.stream.ActorMaterializer
-import context.GlobalContext
-import database.{DatabaseComponent, DatabaseCoordinator}
 import io.circe.generic.auto._
 import io.circe.syntax._
-import json.Score
 import slick.driver.PostgresDriver.api._
-import slick.jdbc.JdbcBackend.Database
 import slick.lifted.TableQuery
 
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
-import scala.io.StdIn
-import scala.language.postfixOps
-import scala.util.{Failure, Success}
+import json.Score
 
 class Scores(tag: Tag) extends Table[(Int, Int)](tag, "scores") {
   def id = column[Int]("id", O.PrimaryKey)

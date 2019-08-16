@@ -62,3 +62,4 @@ dependencyOverrides ++= Seq(
 )
 
 enablePlugins(JavaAppPackaging)
+libraryDependencies += "com.twitter" %% "util-core" % "19.7.0"
