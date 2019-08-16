@@ -1,4 +1,4 @@
-name := "scala-project"
+name := "scala-project-1"
 
 val akkaV         = "2.5.23"
 val akkaHttpV     = "10.1.9"
