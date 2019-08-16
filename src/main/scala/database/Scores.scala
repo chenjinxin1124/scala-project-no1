@@ -2,8 +2,6 @@ package database
 
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration.DurationInt
-import model.tables.Tables
-
 
 object Scores {
   def apply()(implicit dc: DatabaseComponent, ec: ExecutionContext) = new Scores
@@ -29,7 +27,6 @@ class Scores(implicit val dc: DatabaseComponent, ec: ExecutionContext) {
   private[this] val timeout = 120.seconds
   private[this] val scores = TableQuery[Scores]
   private[this] val tableName = "scores"
-  val tables = Tables()
 
   val logger = com.typesafe.scalalogging.Logger(getClass)
 

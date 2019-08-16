@@ -8,7 +8,6 @@ package api
 
 import akka.http.scaladsl.server._
 import akka.http.scaladsl.server.Directives._
-import io.circe.syntax._
 import io.circe.generic.auto._
 import json.FailFastCirceSupport
 
@@ -23,7 +22,7 @@ class ApiJson() extends Api with FailFastCirceSupport {
 
   val tR: Route = path("api" / "test") {
     post {
-      entity(as[Test]) { req =>
+      entity(as[Seq[Test]]) { req =>
         complete(req)
       }
     }

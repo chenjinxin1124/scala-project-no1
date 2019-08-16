@@ -3,7 +3,7 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.Materializer
-import api.{Api, ApiJson}
+import api.{Api, ApiJson, ScoresApi}
 import context.GlobalContext
 
 import scala.concurrent.Future
@@ -33,6 +33,7 @@ class httpService()(implicit ctx: GlobalContext) {
     val port = ctx.system.settings.config.getInt("http.port")
     val apis: List[Api] = List(
       ApiJson()
+      ,ScoresApi()
     )
 
     val routes: Route = apis.map(_.routes).reduceLeft(_ ~ _)
