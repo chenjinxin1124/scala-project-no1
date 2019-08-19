@@ -9,7 +9,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 
 object PlainSQL extends App {
-  var out = new ArrayBuffer[String]()
+//  var out = new ArrayBuffer[String]()
 
 //  def println(s: String): Unit = out += s
 
