@@ -14,7 +14,9 @@ object OnComplete{
 
   f(1)(2)
   f (1) (2)
-  f {1} {2}
+  f {1} {2}//相当于把大括号内部的代码最后的返回值作为一个相应的参数
+  f({1})({2})
+  f ({1}) ({2})
 
   /*def g[A](x: Future[A])(p: PartialFunction[Try[A], A])(implicit ec: ExecutionContext): Future[A] = {
     val q = Promise[A]
